@@ -12,6 +12,12 @@ public class App {
         return a - b;
     }
 
+    // Multiplication method
+    public static int multiply(int a, int b) {
+        return a * b;
+    }
+
+
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
