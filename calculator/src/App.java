@@ -1,6 +1,11 @@
 import java.util.Scanner;
 
 public class App {
+    
+    // Addition method
+    public static int add(int a, int b) {
+        return a + b;
+    }
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -47,5 +52,6 @@ public class App {
         
         scanner.close();
     }
-    
+
+
 }
